@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import nltk
 
 # SMS Dectection
 
@@ -45,6 +44,7 @@ def main():
         upload_result = "🚨 SPAM" if prediction_id == 1 else "✅ SAFE (Not-Spam)"
         st.header(upload_result)
        
+
 
 
 main()
